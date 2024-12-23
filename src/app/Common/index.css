@@ -1,0 +1,107 @@
+#IMG1 {
+    background-image: url('https://ca.frankandoak.com/cdn/shop/files/mobile-1_b937f069-3e5a-443a-a71c-e5d8b97bda3e_1536x.jpg?v=1733495211');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*https://www.frankandoak.com/cdn/shop/files/desktop_553449a6-38dd-4ec8-8198-82391cc49e82_2160x.jpg?v=1733756360*/
+
+
+#IMG2 {
+    background-image: url('https://wwd.com/wp-content/uploads/2020/10/2.-recommended-store-image.jpg?w=1000&h=563&crop=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.salebox{
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+}
+
+.saleli:hover .salebox{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.womenbox{
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+}
+
+.womenli:hover .womenbox{
+    visibility: visible;
+    opacity: 1;
+}
+
+.womenbox ul li{
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.menbox{
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+}
+
+.menli:hover .menbox{
+    visibility: visible;
+    opacity: 1;
+}
+
+.menbox ul li{
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.holidaybox{
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+}
+
+.holidayli:hover .holidaybox{
+    visibility: visible;
+    opacity: 1;
+}
+
+.holidaybox ul li{
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.aboutbox{
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 2;
+}
+
+.aboutli:hover .aboutbox{
+    visibility: visible;
+    opacity: 1;
+}
+.sidebar-img1{
+    
+    background-image: url('https://cdn.shopify.com/s/files/1/0555/5722/6653/files/2130242-719.02_450x.jpg?v=1729610640');
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-position: 40% 60%;
+}
+.sidebar-img2{
+    background-image: url('https://www.frankandoak.com/cdn/shop/files/2130240-1FJ.01.jpg?crop=center&height=880&v=1731098101&width=672');
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-position: 40% 20%;
+}
+
+
+

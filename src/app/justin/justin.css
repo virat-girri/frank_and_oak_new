@@ -1,0 +1,67 @@
+
+
+
+#Img1 {
+    background-image: url('https://cdn.shopify.com/s/files/1/0553/7100/6130/files/2410188-002.01_e365850a-d4ff-42c4-bf56-06636d593283_450x.jpg?v=1722277891');
+    background-size: cover;
+    height: 450px;
+    cursor: pointer;
+   
+}
+
+#Img1:hover {
+    visibility: hidden;
+}
+
+
+#Img2 {
+    background-image: url('https://cdn.shopify.com/s/files/1/0553/7100/6130/files/2410188-002.02_f537670a-b0cd-46a8-87ed-60a22edb30e7_450x.jpg?v=1722277891');
+    background-size: cover;
+    height: 450px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#Img1:hover #Img2 {
+    visibility: visible;
+   
+}
+
+#Img3 {
+    background-image: url('https://cdn.shopify.com/s/files/1/0555/5722/6653/files/2130242-719.01_450x.jpg?v=1729610640');
+    background-size: cover;
+    height: 450px;
+    cursor: pointer;
+   
+}
+
+#Img3:hover {
+    visibility: hidden;
+}
+
+
+#Img4 {
+    background-image: url('https://cdn.shopify.com/s/files/1/0555/5722/6653/files/2130242-719.02_450x.jpg?v=1729610640');
+    background-size: cover;
+    height: 450px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#Img3:hover #Img4 {
+    visibility: visible;
+   
+}
+.buttons:hover #BTN1{
+    visibility: hidden;
+    
+
+}
+.buttons:hover #BTN2{
+    visibility: visible;
+
+}
+ #BTN2{
+    visibility: hidden;
+
+}
